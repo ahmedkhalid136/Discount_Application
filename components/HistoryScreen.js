@@ -14,12 +14,7 @@ export default function History({ navigation, route }) {
     }
   };
 
-  const DeleteData = (itemID) => {
-      setHistoryData((currentItems) => {
-        return currentItems.filter((item) => item.id !== itemID);
-        
-      });
-  };
+
 
   return (
     <View style={styles.MainView}>
